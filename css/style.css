@@ -1,21 +1,18 @@
 
 .navcabecera{
-    background-color: white;
+   
     height: 60px;
     font-weight: 900;
 }
 
 ul{
-    background-color: white;
-    display: block;
-    text-align: right;
+    
+     text-align: right;
     font-size: 30px;
     text-align: center;
     padding-right: 50px;
-   
-
-   
-}
+    height: 70px;
+   }
 
 li{
     display: inline-block;
@@ -53,7 +50,7 @@ li:hover{
 a{
     text-decoration: none;
     text-align: center;
-    color: black;
+    color: rgb(14, 13, 13);
 }
 
 a:hover{
@@ -83,4 +80,45 @@ img{
 
 .img5{
     width: 50%;
+}
+
+.menuamburgert{
+    font-size: 1.8em;
+    float: right;
+    margin-top: 50px;
+    
+}
+
+.box_imagenes{
+  display: grid;   
+  width: 90%;
+  background-color: blue;
+  margin: 0 auto;  
+  grid-template: "  yamaha td125" 
+}
+
+
+
+
+
+.yamaha{
+    grid-area: yamaha;
+}
+
+.dt125{
+    grid-area: dt125;
+}
+
+@media only screen and(min-width: 320px)
+and(min-width: 100px){
+
+ul li{
+    visibility: hidden;
+}
+.menuamburgert{
+   visibility: visible;
+}
+
+
+
 }
