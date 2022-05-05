@@ -1,0 +1,86 @@
+
+.navcabecera{
+    background-color: white;
+    height: 60px;
+    font-weight: 900;
+}
+
+ul{
+    background-color: white;
+    display: block;
+    text-align: right;
+    font-size: 30px;
+    text-align: center;
+    padding-right: 50px;
+   
+
+   
+}
+
+li{
+    display: inline-block;
+    font-size: 1.5em;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    text-transform: none;
+    font-family: tahoma;
+
+}
+
+li:hover{
+    color: red;
+  
+}
+
+.palabrainicio{
+   
+    margin: 20px 30px;
+ 
+   
+}
+
+.palabraservicio{
+    margin: 20px;
+}
+.palabranosotros{
+    margin: 20px;
+}
+.palabraconectenos{
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+img{
+ width: 100%;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+
+}
+.img2{
+    width: 50%;
+}
+.img3{
+    width: 50%;
+}
+
+.img3{
+    width: 50%;
+}
+.img4{
+    width: 50%;
+}
+
+.img5{
+    width: 50%;
+}
